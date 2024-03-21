@@ -185,6 +185,8 @@ label {
 }
 .contact {
     font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #8d8d8d;
 }
 
 .members {
@@ -195,6 +197,8 @@ label {
 
 h3{
     font-size: large;
+    text-decoration: underline;
+    text-decoration-color: #b1b1b1;
 }
 
 .mem1 {
@@ -204,10 +208,18 @@ h3{
 }
 
 .img {
-    margin: 20px;
+    margin: 10px;
     padding-right: 5px;
+    border-radius: 10px;
+}
+
+h4 {
+    text-decoration: underline;
+    text-decoration-color: #b1b1b1;
 }
 
 h5{
     font-size: small;
+    text-decoration: underline;
+    text-decoration-color: #b1b1b1;
 }
