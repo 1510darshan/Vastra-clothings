@@ -222,4 +222,23 @@ h5{
     font-size: small;
     text-decoration: underline;
     text-decoration-color: #b1b1b1;
+    position: relative;
+    margin: 3px;
+}
+
+.card-img-top {
+    width: 100%; /* Set width to 100% for responsiveness */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover;
+}
+.card {
+    height: 90%;
+}
+.large-image {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+}
+.card-body {
+    height: 150px; /* Adjust the height as needed */
+    overflow: auto; /* Enable overflow scrolling */
 }
